@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Lottery application</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Lottery Number Generator</h1>
+
+  <div class="lotteryBallsContainer">
+    <div id="ball0" class="number"></div>
+    <div id="ball1" class="number"></div>
+    <div id="ball2" class="number"></div>
+    <div id="ball3" class="number"></div>
+    <div id="ball4" class="number"></div>
+    <div id="ball5" class="number"></div>
+  </div>
+
+  <div class="buttonContainer">
+    <input type="button" value="Click!" id="lotteryButton" onClick="lotteryNumbers()"/>
+    <input type="button" value="Reset" id="resetButton" onClick="window.location.reload()">
+  </div>
+
+<script src="main.js"></script>
+</body>
+</html>

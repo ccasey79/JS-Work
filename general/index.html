@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>JS General Practice</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Country List</h1>
+
+    <!-- <button id="displayCountriesButton">Display Todos</button>
+    <button id="toggleAllButton">Toggle All</button> -->
+
+    <div>
+      <!-- <button onclick="handlers.displayCountries()">Display Countries</button> -->
+      <button onclick="handlers.toggleAll()">Toggle All</button>
+    </div><br />
+
+    <div>
+      <button onclick="handlers.addToCountry()">Add a Country</button>
+      <input id="addCountryTextInput" type="text" />
+    </div><br />
+
+    <div>
+      <button onclick="handlers.changeCountry()">Change Country</button>
+      <input id="changeCountryPositionInput" type="number"  />
+      <input id="changeCountryTextInput" type="text"  />
+    </div><br />
+
+    <!-- <div>
+      <button onclick="handlers.deleteCountry()">Delete Country</button>
+      <input id="deleteCountryPositionInput" type="number" />
+    </div><br /> -->
+
+    <div>
+      <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+      <input id="toggleCompletedPositionInput" type="number" />
+    </div>
+
+    <ul>
+    </ul>
+
+
+
+
+  </main>
+
+<script src="exercise.js"></script>
+</body>
+</html>

@@ -1,2 +1,1 @@
-# JS-Work
-JS Exercises &amp; projects
+# JS-Practice-Projects

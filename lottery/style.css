@@ -1,0 +1,75 @@
+
+body {
+  background: #cce6ff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 40px;
+  font-family: times;
+}
+
+/* Lottery Balls */
+
+.lotteryBallsContainer {
+
+  display: flex;
+  margin-top: 6%;
+  margin-left: 25%;
+}
+
+.number {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  background: #ffff99;
+  border: 1px solid black;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 25px;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+}
+
+/* Buttons */
+
+.buttonContainer {
+  margin-top: 5%;
+  margin-left: 37%;
+}
+
+#lotteryButton {
+  width: 150px;
+  font-size: 20px;
+  border-radius: 5px;
+  background: #fff;
+  padding: 5px;
+  outline: none;
+  box-shadow: 10px 10px 5px #888888
+}
+
+#lotteryButton:hover {
+  opacity: 0.8;
+  border: 1px solid #000;
+}
+
+#resetButton {
+  width: 150px;
+  font-size: 20px;
+  border-radius: 5px;
+  background: #fff;
+  padding: 5px;
+  outline: none;
+  margin-left: 2%;
+  box-shadow: 10px 10px 5px #888888
+}
+
+#resetButton:hover {
+  opacity: 0.8;
+  border: 1px solid #000;
+}
